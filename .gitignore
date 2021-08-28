@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# charity_data.csv too large to upload
+charity_data.csv
+
 # Distribution / packaging
 .Python
 build/
