@@ -13,15 +13,15 @@ A successful model has 75% or higher accuracy when applied to the testing split 
 - The input data contains a binary column for project success.  The model target is the "IS_SUCCESSFUL" column.  
   
 - Nine columns of the initial csv file are the features for the model:  
-- - APPLICATION_TYPE:  17 categorical values (unknown meaning to the analyst)  
-- - AFFILIATION:  6 possible affiliations (including other)  
-- - CLASSIFICATION:  70 categories (unknown meaning to analyst)  
-- - USE_CASE:  5 cases (including other)  
-- - ORGANIZATION:  4 types of organizations  
-- - STATUS:  1 or 0 for active or inactive  
-- - INCOME_AMT:  Ranges of income of the organizations that were funded.  
-- - SPECIAL_CONSIDERATIONS:  yes or no
-- - ASK_AMT:  how much money was requested and granted.  
+  - APPLICATION_TYPE:  17 categorical values (unknown meaning to the analyst)  
+  - AFFILIATION:  6 possible affiliations (including other)  
+  - CLASSIFICATION:  70 categories (unknown meaning to analyst)  
+  - USE_CASE:  5 cases (including other)  
+  - ORGANIZATION:  4 types of organizations  
+  - STATUS:  1 or 0 for active or inactive  
+  - INCOME_AMT:  Ranges of income of the organizations that were funded.  
+  - SPECIAL_CONSIDERATIONS:  yes or no
+  - ASK_AMT:  how much money was requested and granted.  
   
 - There are 2 columns of the csv file that are not helpful for the analysis:  EIN and NAME.  
 
